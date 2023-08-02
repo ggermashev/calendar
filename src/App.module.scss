@@ -1,0 +1,36 @@
+@font-face {
+  font-family: MonaSans;
+  src: url("./fonts/MonaSans/Mona-Sans.ttf") format("opentype");
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  h3 {
+    margin: 0;
+    font-family: MonaSans, serif;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 0;
+    font-family: MonaSans, serif;
+  }
+
+  h4 {
+    margin: 0;
+    font-family: MonaSans, serif;
+    font-size: 1.2em;
+  }
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
