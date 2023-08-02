@@ -66,6 +66,14 @@ class Calendar {
         )
     }
 
+    importTasks() {
+        this._tasks = JSON.parse(localStorage.getItem('tasks') || '[]')
+    }
+
+    exportTasks() {
+        localStorage.setItem('tasks', JSON.stringify(this._tasks))
+    }
+
 
 }
 

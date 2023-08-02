@@ -75,6 +75,7 @@ const Calendar = observer( () => {
         setCurrentMonth(month)
         setCurrentYear(year)
 
+        CalendarModel.importTasks()
 
         const _monday = getMonday(date.year, date.month, date.day)
         setNextWeek(_monday)
@@ -113,6 +114,8 @@ const Calendar = observer( () => {
                 _hasTask[task.hourTo - 9][days?.findIndex(day => day.day === task.day)] = true
             })
             setHasTask(_hasTask)
+
+            CalendarModel.exportTasks()
         }
 
     }, [tasks])
