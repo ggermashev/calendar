@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/calendar/static/css/main.a0c85a44.css",
+    "main.js": "/calendar/static/js/main.d5ba2ab2.js",
+    "static/media/Mona-Sans.ttf": "/calendar/static/media/Mona-Sans.7fae628b329f4d1ccdb8.ttf",
+    "index.html": "/calendar/index.html",
+    "main.a0c85a44.css.map": "/calendar/static/css/main.a0c85a44.css.map",
+    "main.d5ba2ab2.js.map": "/calendar/static/js/main.d5ba2ab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0c85a44.css",
+    "static/js/main.d5ba2ab2.js"
+  ]
+}
