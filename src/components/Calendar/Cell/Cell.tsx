@@ -17,9 +17,6 @@ const Cell: FC<ICell> = observer(({
                                       time
                                   }) => {
 
-    useEffect(() => {
-        console.log(time)
-    }, [])
 
     return (
         <Wrap

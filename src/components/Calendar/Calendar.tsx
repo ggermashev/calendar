@@ -69,7 +69,7 @@ const Calendar = observer( () => {
 
     useEffect(() => {
         const today = new Date()
-        const [month, day, year] = today.toLocaleDateString().split('/').map(data => +data)
+        const [month, day, year] = [today.getUTCMonth() + 1, today.getUTCDate(), today.getFullYear()]
         setDate({year, month, day})
         const date = {year, month, day}
         setCurrentMonth(month)
